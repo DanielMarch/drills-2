@@ -2,12 +2,14 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title A5
-    link(rel='stylesheet', href='./css/A5.css')
+    title A6
+    link(rel='stylesheet', href='./css/A6.css')
   body
-    h1 A5
-
-    button#get Get Box Office
+    h1 A6
+    #controls
+      input#num(type='text' placeholder='Number of Movies')
+      input#rating(type='text' placeholder='Rating')
+      button#get Get Box Office
     #output
 
     script(src='./js/vendor/traceur.js')
@@ -15,4 +17,4 @@ html(lang='en')
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/vendor/lodash-2.4.1.js')
     script(src='./js/vendor/moment-2.6.0.js')
-    script(src='./js/es6/A5.js')
+    script(src='./js/es6/A6.js')
